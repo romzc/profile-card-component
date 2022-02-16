@@ -73,9 +73,9 @@ span {
 }
 
 hr {
-    border-top: 0.1rem solid var(--dark-gray);
+    border-top: 0.001rem solid var(--dark-gray);
     opacity: 0.5;
-    width: 99%;
+    width: 99.6%;
 }
 
 
