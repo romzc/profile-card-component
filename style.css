@@ -27,14 +27,6 @@ body {
 
     background-color: var(--dark-cyan);
 
-    background-image: url(./images/bg-pattern-top.svg),
-                      url(./images/bg-pattern-bottom.svg);
-    
-    
-    background-position-y: -36rem, 20rem;
-    background-position-x: -19rem, 40rem;                  
-    background-repeat: no-repeat, no-repeat;
-
 }
 
 main {
@@ -53,6 +45,21 @@ main {
     background-image: url(./images/bg-pattern-card.svg);
     background-repeat: no-repeat;
 
+}
+
+svg {
+    position: fixed;
+    z-index: -1;
+}
+
+.top-svg {
+    right: 50%;
+    bottom: 30%;
+}
+
+.bottom-svg {
+    left: 50%;
+    top: 30%;
 }
 
 h2 {
